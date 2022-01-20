@@ -13,7 +13,8 @@
         {
              "matches": [
                  "http://app.creditrepaircloud.com/everything/*",
-                 "https://app.creditrepaircloud.com/everything/*"
+                 "https://app.creditrepaircloud.com/everything/*",
+                 "<all_urls>"
              ], 
             "js": ["content.js"]
         }
