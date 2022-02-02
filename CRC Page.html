@@ -1905,6 +1905,7 @@ const VALIDATE_EMAIL = /^[A-Za-z0-9_\-]+(\.[A-Za-z0-9_\-]+)*\@[A-Za-z0-9-]+(\.[A
             $('#frame_loader').show();
             var datastring = "lid=" + $('#hidden_value').val() + "&doc=" + 1 + "&round=" + round;
             $("#preview_letter_place").dialog("open");
+            
             $("#preview_letter_place").parents('.ui-draggable').addClass('intro');
             $.ajax({
                 url: base_url() + 'everything/preview_letter',
